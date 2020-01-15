@@ -3,7 +3,7 @@
     <div class="login-box">
       <!-- logo头像框 -->
       <div class="logo-box">
-        <img src="../assets/logo.png" alt />
+        <img src="../assets/img/logo.png" alt />
       </div>
 
       <!-- 登陆表单 -->
@@ -37,8 +37,8 @@ export default {
     return {
       // 登录表单对应的数据对象
       loginForm: {
-        username: 'admin',
-        password: '123456'
+        username: '',
+        password: ''
       },
       // 登录表单验证规则
       loginFormRules: {
